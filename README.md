@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+# ⏳ Fokus - Pomodoro App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido com foco em produtividade utilizando a técnica Pomodoro.
 
-## Get started
+O app permite alternar entre:
+- Modo foco
+- Pausa curta
+- Pausa longa
 
-1. Install dependencies
+Também é possível:
+- Iniciar o timer
+- Pausar a contagem
+- Resetar o tempo
 
-   ```bash
-   npm install
-   ```
+# 🚀 Tecnologias utilizadas
 
-2. Start the app
+Durante o desenvolvimento foram utilizados:
 
-   ```bash
-   npx expo start
-   ```
+- React Native
+- Expo
+- JavaScript
+- useState
+- useEffect
+- Estilização responsiva
+- Lógica de contagem regressiva
 
-In the output, you'll find options to open the app in a
+# 📱 Sobre o projeto
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O objetivo do projeto foi praticar desenvolvimento mobile com React Native e melhorar conhecimentos em gerenciamento de estado, timers em tempo real e construção de interfaces responsivas.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Esse projeto me ajudou bastante na evolução com aplicações mobile utilizando Expo.
 
-## Get a fresh project
+# 📥 Como acessar o aplicativo
 
-When you're ready, run:
+O projeto foi desenvolvido utilizando Expo, então é necessário instalar o aplicativo Expo Go no celular.
+
+## Android
+
+https://play.google.com/store/apps/details?id=host.exp.exponent
+
+## iPhone (iOS)
+
+https://apps.apple.com/app/expo-go/id982107779
+
+# ▶️ Como executar o projeto
+
+## 1. Clone o repositório
 
 ```bash
-npm run reset-project
+git clone https://github.com/gabrielgeovaniixz/fokus-pomodoro.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 2. Entre na pasta do projeto
 
-## Learn more
+```bash
+cd fokus-pomodoro
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 3. Instale as dependências
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+## 4. Inicie o projeto
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Caso tenha problema de conexão no celular:
+
+```bash
+npx expo start --tunnel
+```
+
+# 📲 Como abrir no celular
+
+Depois de iniciar o projeto:
+
+- Um QR Code será exibido
+- Abra o app Expo Go no celular
+- Escaneie o QR Code
+
+O aplicativo abrirá automaticamente.
+
+# ⚠️ Importante
+
+O celular e o computador precisam estar conectados na mesma rede Wi-Fi.
+
+# 💡 Funcionalidades
+
+- Timer Pomodoro
+- Alternância entre modos
+- Contagem regressiva
+- Interface responsiva
+- Controle de iniciar, pausar e resetar
+
+# 👨‍💻 Desenvolvido por
+
+Gabriel Geovani
+
+LinkedIn:
+https://www.linkedin.com/in/gabriel-geovani
+
+GitHub:
+https://github.com/gabrielgeovaniixz
